@@ -1,0 +1,92 @@
+[2024-02-15 21:40:46] [ ERROR] [Animal:57] org.h2.Driver
+[2024-02-15 21:40:46] [ ERROR] [Animal:62] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 21:45:01] [ ERROR] [Animal:57] No suitable driver found for jbdc:h2:~/clase8c1
+[2024-02-15 21:45:01] [ ERROR] [Animal:62] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 21:45:29] [ ERROR] [Animal:57] No suitable driver found for jbdc:h2:~/clase8c1
+[2024-02-15 21:45:29] [ ERROR] [Animal:62] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 21:53:30] [ ERROR] [Animal:57] No suitable driver found for jbdc:h2:~/clase8c1
+[2024-02-15 21:53:30] [ ERROR] [Animal:62] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 21:54:06] [ ERROR] [Animal:57] No suitable driver found for jbdc:h2:~/clase8c1
+[2024-02-15 21:54:06] [ ERROR] [Animal:62] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 22:25:21] [ ERROR] [Figura:42] No suitable driver found for jbdc:h2:~/clase8c1
+[2024-02-15 22:25:21] [ ERROR] [Figura:49] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 22:26:47] [ ERROR] [Figura:42] No suitable driver found for jbdc:h2:~/clase8mesas
+[2024-02-15 22:26:47] [ ERROR] [Figura:49] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 22:28:10] [ ERROR] [Figura:42] No suitable driver found for jbdc:h2:~/clase8mesas
+[2024-02-15 22:28:10] [ ERROR] [Figura:49] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-15 22:32:28] [ ERROR] [Animal:57] Error de Sintaxis en sentencia SQL "INSERT INTO ANIMALES(NOMBRE, TIPO) VALUES ('Firulais', 'Perro'), ('Lola', 'Vaca'), ('Homero', 'Perro'), ('Pepe, 'Sapo'), ('Tuki', 'Loro[*]')"
+Syntax error in SQL statement "INSERT INTO ANIMALES(NOMBRE, TIPO) VALUES ('Firulais', 'Perro'), ('Lola', 'Vaca'), ('Homero', 'Perro'), ('Pepe, 'Sapo'), ('Tuki', 'Loro[*]')"; SQL statement:
+INSERT INTO ANIMALES(NOMBRE, TIPO) VALUES ('Firulais', 'Perro'), ('Lola', 'Vaca'), ('Homero', 'Perro'), ('Pepe, 'Sapo'), ('Tuki', 'Loro') [42000-224]
+[2024-02-15 22:33:51] [ INFO ] [Animalito:32] Animal: 1 - Firulais - Perro
+[2024-02-15 22:33:51] [ INFO ] [Animalito:32] Animal: 2 - Lola - Vaca
+[2024-02-15 22:33:51] [ INFO ] [Animalito:32] Animal: 3 - Homero - Perro
+[2024-02-15 22:33:51] [ INFO ] [Animalito:32] Animal: 4 - Pepe - Sapo
+[2024-02-15 22:33:51] [ INFO ] [Animalito:32] Animal: 5 - Tuki - Loro
+[2024-02-15 22:33:51] [ INFO ] [Animalito:37] ----------------------------------------------------------------
+[2024-02-15 22:33:51] [ INFO ] [Animalito:44] Animal: 2 - Lola - Vaca
+[2024-02-15 22:33:51] [ INFO ] [Animalito:44] Animal: 3 - Homero - Perro
+[2024-02-15 22:33:51] [ INFO ] [Animalito:44] Animal: 4 - Pepe - Sapo
+[2024-02-15 22:33:51] [ INFO ] [Animalito:44] Animal: 5 - Tuki - Loro
+[2024-02-15 22:34:54] [ INFO ] [Figura:38] Figura: 1 - Circulo-Rojo
+[2024-02-15 22:34:54] [ INFO ] [Figura:38] Figura: 2 - Circulo-Verde
+[2024-02-15 22:34:54] [ INFO ] [Figura:38] Figura: 3 - Cuadrado-Azul
+[2024-02-15 22:34:54] [ INFO ] [Figura:38] Figura: 4 - Cuadrado-Amarillo
+[2024-02-15 22:34:54] [ INFO ] [Figura:38] Figura: 5 - Cuadrado-Violeta
+[2024-02-15 22:37:14] [ INFO ] [Figura:38] Figura: 1 - Circulo-Rojo
+[2024-02-15 22:37:47] [ INFO ] [Figura:38] Figura: 2 - Circulo-Rojo
+[2024-02-15 22:39:15] [ INFO ] [Figura:36] ----------------------
+[2024-02-15 22:39:15] [ INFO ] [Figura:40] Figura: 1 - Circulo-Verde
+[2024-02-15 22:39:15] [ INFO ] [Figura:40] Figura: 2 - Circulo-Rojo
+[2024-02-15 22:39:15] [ INFO ] [Figura:40] Figura: 3 - Cuadrado-Azul
+[2024-02-15 22:39:15] [ INFO ] [Figura:40] Figura: 4 - Cuadrado-Amarillo
+[2024-02-15 22:39:15] [ INFO ] [Figura:40] Figura: 5 - Cuadrado-Violeta
+[2024-02-15 22:40:48] [ INFO ] [Figura:36] ----------------------
+[2024-02-15 22:40:48] [ ERROR] [Figura:47] El objeto ya está cerrado
+The object is already closed [90007-224]
+[2024-02-15 22:41:13] [ INFO ] [Figura:40] Figura: 2 - Circulo-Rojo
+[2024-02-15 22:41:57] [ ERROR] [Animal:57] Error de Sintaxis en sentencia SQL "INSERT INTO ANIMALES(NOMBRE, TIPO) VALUES ('Firulais', 'Perro'), ('Lola', 'Vaca'), ('Homero', 'Perro'), ('Pepe, 'Sapo'), ('Tuki', 'Loro[*]')"
+Syntax error in SQL statement "INSERT INTO ANIMALES(NOMBRE, TIPO) VALUES ('Firulais', 'Perro'), ('Lola', 'Vaca'), ('Homero', 'Perro'), ('Pepe, 'Sapo'), ('Tuki', 'Loro[*]')"; SQL statement:
+INSERT INTO ANIMALES(NOMBRE, TIPO) VALUES ('Firulais', 'Perro'), ('Lola', 'Vaca'), ('Homero', 'Perro'), ('Pepe, 'Sapo'), ('Tuki', 'Loro') [42000-224]
+[2024-02-19 19:30:04] [ INFO ] [Figura:40] Figura: 2 - Circulo-Rojo
+[2024-02-19 20:09:04] [ INFO ] [Figura:40] Figura: 1 - Circulo-Verde
+[2024-02-19 20:09:04] [ INFO ] [Figura:40] Figura: 2 - Circulo-Rojo
+[2024-02-19 20:09:04] [ INFO ] [Figura:40] Figura: 3 - Cuadrado-Azul
+[2024-02-19 20:09:04] [ INFO ] [Figura:40] Figura: 4 - Cuadrado-Amarillo
+[2024-02-19 20:09:04] [ INFO ] [Figura:40] Figura: 5 - Cuadrado-Violeta
+[2024-02-19 20:11:43] [ ERROR] [Figura:45] Conversión de datos fallida, convirtiendo "Circulo"
+Data conversion error converting "Circulo" [22018-224]
+[2024-02-19 20:12:13] [ INFO ] [Figura:40] Figura: 1 - Circulo-Verde
+[2024-02-19 20:12:13] [ INFO ] [Figura:40] Figura: 2 - Circulo-Rojo
+[2024-02-19 20:12:13] [ INFO ] [Figura:40] Figura: 3 - Cuadrado-Azul
+[2024-02-19 20:12:13] [ INFO ] [Figura:40] Figura: 4 - Cuadrado-Amarillo
+[2024-02-19 20:12:13] [ INFO ] [Figura:40] Figura: 5 - Cuadrado-Violeta
+[2024-02-19 20:15:10] [ INFO ] [Figura:40] ID: 1 - Circulo-Verde
+[2024-02-19 20:15:11] [ INFO ] [Figura:40] ID: 2 - Circulo-Rojo
+[2024-02-19 20:15:11] [ INFO ] [Figura:40] ID: 3 - Cuadrado-Azul
+[2024-02-19 20:15:11] [ INFO ] [Figura:40] ID: 4 - Cuadrado-Amarillo
+[2024-02-19 20:15:11] [ INFO ] [Figura:40] ID: 5 - Cuadrado-Violeta
+[2024-02-19 20:17:03] [ INFO ] [Figura:40] ID: 1 -Figura: Circulo- Color:Verde
+[2024-02-19 20:17:03] [ INFO ] [Figura:40] ID: 2 -Figura: Circulo- Color:Rojo
+[2024-02-19 20:17:03] [ INFO ] [Figura:40] ID: 3 -Figura: Cuadrado- Color:Azul
+[2024-02-19 20:17:03] [ INFO ] [Figura:40] ID: 4 -Figura: Cuadrado- Color:Amarillo
+[2024-02-19 20:17:03] [ INFO ] [Figura:40] ID: 5 -Figura: Cuadrado- Color:Violeta
+[2024-02-19 20:17:55] [ INFO ] [Figura:40] ID: 2 -Figura: Circulo- Color:Rojo
+[2024-02-19 20:48:51] [ INFO ] [Main:36] El promedio de la lista es: 5.5
+[2024-02-19 20:49:59] [ INFO ] [Main:36] El promedio de la lista es: 5.5
+[2024-02-19 20:50:16] [ INFO ] [Main:36] El promedio de la lista es: 5.5
+[2024-02-19 20:51:01] [ INFO ] [Main:36] El promedio de la lista es: 5.5
+[2024-02-19 20:51:19] [ INFO ] [Main:36] El promedio de la lista es: 5.5
+[2024-02-19 20:56:29] [ INFO ] [Ejercicio$Main:22] La lista tiene mas de 5 elementos
+[2024-02-19 20:56:29] [ INFO ] [Ejercicio$Main:32] El promedio de la lista es: 5.5
+[2024-02-19 21:35:41] [ INFO ] [Ejercicio$Main:22] La lista tiene mas de 5 elementos
+[2024-02-19 21:35:41] [ INFO ] [Ejercicio$Main:32] El promedio de la lista es: 5.5
+[2024-02-19 21:35:50] [ INFO ] [Main:32] Error
+[2024-02-19 21:35:50] [ INFO ] [Main:38] El promedio de la lista es: 5.5
+[2024-02-19 21:37:17] [ INFO ] [Main:26] La lista tiene mas de 5 elementos
+[2024-02-19 21:37:17] [ INFO ] [Main:38] El promedio de la lista es: 5.5
+[2024-02-19 21:37:24] [ INFO ] [Main:26] La lista tiene mas de 5 elementos
+[2024-02-19 21:37:24] [ INFO ] [Main:38] El promedio de la lista es: 5.5
+[2024-02-19 21:38:02] [ INFO ] [Main:28] La lista tiene mas de 10 elementos
+[2024-02-19 21:38:02] [ INFO ] [Main:38] El promedio de la lista es: 6.0
+[2024-02-19 21:38:28] [ INFO ] [Main:28] La lista tiene mas de 10 elementos
+[2024-02-19 21:38:28] [ INFO ] [Main:36] El promedio de la lista es: 6.0
